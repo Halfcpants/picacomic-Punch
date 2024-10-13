@@ -34,8 +34,6 @@ jobs:
         
     - name: Build
       run: |
-        apt-get update
-        apt-get upgrade -y
         dotnet build -c Release
       
     - name: Run
